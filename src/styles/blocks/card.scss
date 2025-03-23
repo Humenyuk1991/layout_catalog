@@ -28,7 +28,7 @@
     font-weight: 500;
     line-height: 18px;
 
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     color: #060b35;
 
     &:hover {
@@ -46,7 +46,7 @@
   }
   &__price {
     display: flex;
-    margin-bottom: 14px;
+    margin-bottom: 16px;
     justify-content: space-between;
     &-label {
       font-size: 12px;
@@ -92,8 +92,8 @@
     font-weight: 400;
     line-height: 16px;
     color: #060b35;
-    margin-bottom: 24px;
-    margin-left: 1px;
+    margin-bottom: 22px;
+    margin-left: 2px;
     justify-content: space-between;
   }
 }
