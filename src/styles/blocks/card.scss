@@ -1,6 +1,6 @@
 .card {
-  width: 200px;
-  height: 408px;
+  width: 100%;
+
   border: 1px solid #f3f3f3;
   border-radius: 5px;
 
@@ -46,8 +46,11 @@
   }
   &__price {
     display: flex;
+
     margin-bottom: 16px;
+
     justify-content: space-between;
+
     &-label {
       font-size: 12px;
       height: 18px;
