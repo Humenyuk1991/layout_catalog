@@ -1,16 +1,17 @@
 .header {
   width: 100%;
+  max-width: 1200px;
+
   box-shadow: 0 2px 4px 0 #0000000d;
   margin-inline: auto;
-  padding: 0 5vw;
+  padding: 0 50px;
   text-align: left;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
-@media (min-width: 1200px) {
+@media (min-width: 1024px) {
   .header {
-    max-width: 1200px;
+    max-width: 1024px;
   }
 }
