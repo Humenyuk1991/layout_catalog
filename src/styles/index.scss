@@ -24,6 +24,7 @@ html {
 
 .stars {
   display: flex;
+  margin-left: 1.5px;
 }
 
 .stars--hidden {
@@ -32,7 +33,7 @@ html {
 
 .stars__star {
   background-image: url(../images/star.svg);
-  background-position: center;
+  background-position: left;
 
   margin-right: 4px;
   width: 16px;
